@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración básica del documento:
+        Define codificación, responsive design y recursos externos (fuentes e iconos) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- HEADER:
+        Contiene el título principal del sitio.
+        TODO: agregar un logo o una sección Hero con presentación más visual -->
+    <header>
+        <h1>Mi Portafolio</h1>
+    </header>
+
+    <!-- NAV:
+        Barra de navegación que permite moverse entre secciones mediante anclas.
+        TODO: agregar menú hamburguesa para móviles -->
+    <nav>
+        <ul>    
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#tarjetas">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN:
+         Contenedor principal del contenido del sitio -->
+    <main>
+
+        <!-- SOBRE MI:
+            Presentación personal con imagen y descripción.
+            TODO: agregar redes personales o botón de descarga de CV -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <img src="img/foto_perfil.png" alt="Foto personal">
+            <p>
+                Soy desarrolladora en formación apasionada por la programación.
+                Me interesa el desarrollo web, la enseñanza y la creación de soluciones
+                tecnológicas. Mi objetivo es seguir creciendo profesionalmente y crear
+                proyectos útiles para las personas.
+            </p>
+            <p>
+                Mientras continúo mi trayectoria en el desarrollo Full Stack, siempre busco proyectos colaborativos y oportunidades donde pueda aportar mis habilidades y crecer tanto personal como profesionalmente. 
+            </p>
+        </section>
+
+        <!-- TARJETAS / PROYECTOS:
+            Muestra proyectos en formato de tarjetas usando Flexbox.
+            TODO: enlazar cada proyecto a un repositorio o demo en vivo -->
+        <section id="tarjetas">
+            <h2>Proyectos</h2>
+            <div class="contenedor-tarjetas">
+                
+                <div class="tarjeta">
+                    <img src="img/proyecto1.png" alt="Imagen que representa una página web y tecnologías utilizadas">
+                    <h3>Proyecto 1</h3>
+                    <p>Aplicación web desarrollada con HTML, CSS y JavaScript.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="img/proyecto2.png" alt="Imagen que representa la infraestructura de una base de datos y backend en Python">
+                    <h3>Proyecto 2</h3>
+                    <p>Sistema CRUD con base de datos y backend en Python.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- HABILIDADES:
+            Lista de tecnologías y habilidades personales.
+            TODO: usar barras de progreso o iconos para representar nivel -->
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li><strong>Tecnologías que domino:</strong> HTML, CSS, Python, Java y C#</li>
+                <li><strong>Quiero aprender:</strong> React, Spring y Django avanzado</li>
+                <li><strong>Hobbies:</strong> Jugar videojuegos, enseñar y leer</li>
+            </ul>
+        </section>
+
+        <!-- CONTACTO:
+            Formulario para que el usuario envíe información.
+            TODO: conectar con backend o validación con JavaScript -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¡Conectemos y exploremos cómo podemos crear algo increíble juntos!</p>
+            <form>
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="text" name="apellido" placeholder="Apellido" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="telefono" placeholder="Teléfono">
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <!-- PELÍCULAS:
+            Sección adicional que muestra contenido en tarjetas (similar a proyectos).
+            TODO: convertir en carrusel o grid interactivo -->
+        <section id="peliculas">
+            <h2>Películas Favoritas</h2>
+            <div class="contenedor-peliculas">
+                <div class="pelicula">
+                    <img src="img/peli1.jpg" alt="Película 1">
+                    <h3>Kill Bill</h3>
+                    <p>Después de ser traicionada, herida de muerte y dada por muerta, despierta de un largo coma y emprende un implacable viaje de venganza contra quienes la traicionaron.</p>
+                </div>
+
+                <div class="pelicula">
+                    <img src="img/peli2.jpg" alt="Película 2">
+                    <h3>Joker</h3>
+                    <p>Arthur Fleck adora hacer reír a la gente, pero su carrera como comediante es un fracaso. Una serie de trágicos hechos lo conducen por un sendero de locura y crimen.</p>
+                </div>
+
+                <div class="pelicula">
+                    <img src="img/peli3.jpg" alt="Película 3">
+                    <h3>El Padrino</h3>
+                    <p>Una familia criminal intenta establecer su supremacía pero un intento de asesinato deja a su jefe incapacitado, por lo que sus hijos deben hacerse cargo del negocio.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER:
+        Contiene información final y enlaces a redes sociales.
+        TODO: agregar links reales y abrir en nueva pestaña -->
+    <footer>
+        <p>© 2026 - Mi Portafolio</p>
+        <div class="redes">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+    </footer>
+
+</body>
+</html>
