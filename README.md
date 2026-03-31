@@ -22,7 +22,7 @@ Este trabajo práctico consiste en el desarrollo de una Landing Page de Portafol
 - [x] Proyecto publicado utilizando Vercel.
 - [x] En el "README.md" se indica la URL del proyecto publicado.
 
-👉 URL Vercel
+👉 [URL Vercel](https://portafolio-personal-ivory-ten.vercel.app/)
 
 ---
 
